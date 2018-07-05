@@ -1,0 +1,23 @@
+.flex-container {
+	display: flex;
+	justify-content:space-around;
+
+}
+.flex-element {
+	flex-grow: 1;
+	
+}
+.flex-element1 {
+	flex-grow: 2;
+	display: flex;
+	justify-content:space-around;
+	flex-direction: column;
+}
+.flex-container2 {
+	display: flex;
+	justify-content: space-around;
+
+}
+.flex-li {
+	flex-grow: 1;
+}
