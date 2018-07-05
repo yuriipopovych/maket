@@ -1,5 +1,6 @@
 * {
 	box-sizing: border-box;
+	font-family: sans-serif;
 }
 .container{
 	width: 1520px;
@@ -70,7 +71,7 @@ body {
 }
 
 .menu ul li:not(:first-child){
-	margin-left: -4px;
+	margin-left: -5px;
 }
 .search{
 	border: 1px solid #000;
@@ -113,8 +114,63 @@ body {
 	margin-top: 20px; 
 }
 .video {
-	width: 10%;
+	padding: 2px 5px;
 	border: 1px solid black;
 	background-color: darkgrey;
+	display: inline-block;
 
+}
+.flex-container-bottom {
+	width: 100%;
+	border: 1px solid lightgrey;
+
+}
+.flex-container-bottom div {
+	width: 24%;
+	height: 200px;
+	background-color: lightgrey;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.content {
+	width: 100%;
+	margin-top: 20px;
+	height: 660px;
+}
+.left-content{
+	width: 24%;
+
+	/*border: 1px solid black;*/
+	/*min-height: 200px;*/
+}
+.center-content {
+	width: 48%;
+	min-height: 200px;
+}
+.right-content{
+	width: 24%;
+	border: 1px solid black;
+	/*height: 660px;*/
+}
+.left-content div {
+	width: 100%;
+	height: 200px;
+	background-color: grey;
+	border: 1px solid #000;
+
+}
+.center-content .top {
+	width: 100%;
+	height: 430px;
+	background-color: grey;
+	border: 1px solid #000;
+}
+.center-content .bottom{
+	width: 100%;
+	height: 200px;
+	background-color: lightgrey;
+	border: 1px solid #000;
 }
