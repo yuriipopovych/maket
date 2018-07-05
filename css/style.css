@@ -48,3 +48,21 @@ body {
 .li:not(:first-child){
 	margin-left: 13px;
 }
+.menu{
+	margin-left: 14px;
+}
+.menu ul{
+	padding-left: 0px;
+}
+.menu ul li{
+	display: inline-block;
+	background-color: darkgrey;
+	border:1px solid #000;
+	height: 40px;
+	width: 302px;
+	margin-left: -4px;
+	text-align: center;
+    line-height: 40px;
+	font-size: 20px;
+	text-transform: uppercase;
+}
