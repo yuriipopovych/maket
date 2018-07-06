@@ -42,3 +42,7 @@
 	flex-direction: column;
 	justify-content: space-between;
 }
+.div1 {
+	display: flex;
+	justify-content: space-between;
+}
