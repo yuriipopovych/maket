@@ -37,3 +37,8 @@
 	flex-direction: column;
 	justify-content: space-between;
 }
+.right-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
