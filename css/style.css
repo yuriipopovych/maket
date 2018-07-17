@@ -32,18 +32,23 @@ body {
 	
 }
 
-.div {
+.topdiv {
 	border-radius: 3px;
 	height: 60%;
 	width: 100%;
 	background-color: #fff;
+	display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .div1 {
 	height: 35%;
 	width: 100%;
 }
 .li {
-	display: inline-block;
+	display: flex;
+    justify-content: center;
+    align-items: center;
 	margin-top: 10px;
 	height: 60px;
 	width: 220px;
@@ -156,6 +161,9 @@ body {
 	height: 200px;
 	background-color: grey;
 	border: 1px solid #000;
+	display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 .center-content .top {
@@ -163,18 +171,27 @@ body {
 	height: 430px;
 	background-color: grey;
 	border: 1px solid #000;
+	display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .center-content .bottom{
 	width: 100%;
 	height: 200px;
 	background-color: lightgrey;
 	border: 1px solid #000;
+	display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .right-content div {
 	width: 100%;
 	height: 200px;
 	background-color: grey;
 	border: 1px solid #000;
+	display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .right-content div:first-child{
 	background-color: lightgrey;
